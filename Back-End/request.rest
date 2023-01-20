@@ -1,0 +1,25 @@
+GET http://localhost:5000/mahasiswa
+
+###
+GET http://localhost:5000/mahasiswa/33
+
+###
+POST http://localhost:5000/mahasiswa
+Content-Type: application/json
+
+{
+    "nama": "Budi",
+    "nim": "1234567890"
+}
+
+###
+PATCH http://localhost:5000/mahasiswa/6
+Content-Type: application/json
+
+{
+    "nama": "Budi",
+    "nim": "1234567890"
+}
+
+###
+DELETE  http://localhost:5000/mahasiswa/33
