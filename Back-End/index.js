@@ -8,4 +8,4 @@ app.use(express.json());
 
 app.use(MahasiswaRoute);
 
-app.listen(5000, () => console.log("Server running on port 500"));
+app.listen(5000, () => console.log("Server running on port 5000"));
